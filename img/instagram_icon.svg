@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<svg fill="#000000" width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <title>instagram</title>
+  <path d="M44,7 H20 A13,13 0 0 0 7,20 V44 A13,13 0 0 0 20,57 H44 A13,13 0 0 0 57,44 V20 A13,13 0 0 0 44,7 Z M44,9 A11,11 0 0 1 55,20 V44 A11,11 0 0 1 44,55 H20 A11,11 0 0 1 9,44 V20 A11,11 0 0 1 20,9 H44 Z" fill-rule="evenodd"/>
+  <path d="M32,23 A10,10 0 1 1 32,43 A10,10 0 1 1 32,23 M32,27 A6,6 0 1 0 32,39 A6,6 0 1 0 32,27" fill-rule="evenodd"/>
+  <circle cx="44" cy="21" r="3" />
+</svg>
