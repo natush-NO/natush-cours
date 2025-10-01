@@ -36,8 +36,30 @@ body {
 }
 
 body {
-  position: relative; /* створюємо стековий контекст */
-  background: transparent; /* фон переносимо у ::before */
+  position: relative;
+  background: transparent;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+html,
+body {
+  line-height: 1;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  background: transparent;
+
+  min-height: 100vh;
+  min-height: 100svh;
+  min-height: 100dvh;
+  overflow-x: hidden;
 }
 
 body::before {
