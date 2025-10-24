@@ -111,9 +111,8 @@ main {
 }
 
 .course__program-day-title {
-  font-size: clamp(28px, 3.2vw, 40px);
+  font-size: clamp(44px, 2.2vw, 40px);
   width: 50%;
-  font-size: 40px;
   font-weight: 600;
 
   background: linear-gradient(
@@ -132,7 +131,7 @@ main {
 }
 
 .course__program-item {
-  font-size: clamp(20px, 2.2vw, 24px);
+  font-size: clamp(38px, 2.2vw, 36px);
   background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0.6),
