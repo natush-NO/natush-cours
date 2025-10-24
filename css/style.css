@@ -82,20 +82,30 @@ main {
   gap: 20px;
 }
 
-.course__description {
-  margin-bottom: 50px;
-}
-
 .course__title {
   font-size: clamp(42px, 5.5vw, 58px);
   font-weight: 600;
 }
 
+.course__price {
+  margin-bottom: 30px;
+}
+
+.course__price-title {
+  font-size: 42px;
+}
+
+.course__price-value {
+  text-decoration: underline solid #000 1px;
+}
 .course__program {
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: clamp(36px, 6vw, 60px);
+  background: linear-gradient(rgba(255, 255, 255, 0.493));
+  border-radius: 15px;
+  padding: clamp(20px, 3vw, 40px) clamp(10px, 2vw, 20px);
 }
 
 .course__program-title {
@@ -108,20 +118,15 @@ main {
   flex-direction: column;
   align-items: center;
   gap: clamp(20px, 5vw, 50px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 15px 10px 20px 10px;
+  border-radius: 15px;
 }
 
 .course__program-day-title {
   font-size: clamp(44px, 2.2vw, 40px);
   width: 50%;
   font-weight: 600;
-
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.84)
-  );
-  padding: 10px 0px;
-  border-radius: 50%;
 }
 
 .course__program-list {
@@ -132,13 +137,6 @@ main {
 
 .course__program-item {
   font-size: clamp(38px, 2.2vw, 36px);
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.84)
-  );
-  padding: 15px 40px;
-  border-radius: 50%;
 }
 
 .course__program-item::before {
