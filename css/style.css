@@ -10,7 +10,7 @@ body {
 
 .wrapper {
   max-width: 1350px;
-  padding: 0 5px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -34,6 +34,13 @@ header {
 .header__title {
   font-size: 62px;
   font-weight: 800;
+}
+
+.nav__section-conect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .nav__social-items {
