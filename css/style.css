@@ -99,10 +99,6 @@ main {
   text-decoration: line-through solid #750303 1.5px;
 }
 
-/* .course__price-new {
-  text-decoration: underline solid #000 1px;
-} */
-
 .course__program {
   text-align: center;
   display: flex;
