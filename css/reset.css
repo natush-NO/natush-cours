@@ -37,20 +37,18 @@ body {
 }
 
 html {
-  background-color: #ebdcd6;
+  background-color: #f5f3f3;
 }
 
-.bg-fixed {
+/* .bg-fixed {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.45),
-      rgba(255, 255, 255, 0.45)
-    ),
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)),
     url("../img/background_img.jpeg") center / cover no-repeat;
   pointer-events: none;
-}
+} */
 
 @supports (padding: env(safe-area-inset-top)) {
   body {

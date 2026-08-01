@@ -5,7 +5,12 @@
 body {
   overflow: auto;
   margin: 0 auto;
-  font-family: "Caveat", "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-family:
+    "Caveat",
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    sans-serif;
 }
 
 .wrapper {
@@ -61,7 +66,9 @@ header {
   width: 50px;
   height: 50px;
   display: block;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
 }
 
 main {
@@ -85,6 +92,10 @@ main {
 .course__title {
   font-size: clamp(42px, 5.5vw, 58px);
   font-weight: 600;
+}
+
+.course__price {
+  /* margin-bottom: 30px; */
 }
 
 .course__price {
