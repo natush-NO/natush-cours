@@ -1,7 +1,7 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap");
 
-.wrapper-background {
+/* .wrapper-background {
   background:
     radial-gradient(
       circle at 15% 20%,
@@ -24,7 +24,7 @@
       transparent 35%
     ),
     #faf8f6;
-}
+} */
 
 .wrapper {
   width: min(1320px, calc(100% - 50px));
@@ -232,6 +232,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 40px;
 }
 
@@ -446,4 +447,27 @@ section {
   section {
     padding: 60px 0;
   }
+}
+
+/* =========================
+        BASIC-COURSE
+========================= */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* =========================
+       SEO
+========================= */
+
+.seo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
 }
