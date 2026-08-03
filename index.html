@@ -40,71 +40,93 @@
 <body>
   <div class="wrapper-background">
 
+    <div href="index.html" class="logo">
+      <img src="img/bacground.png" alt="Natush Nails">
+    </div>
+
     <div class="wrapper">
       <header class="header">
-        <div class="header__content">
 
-          <div class="course__program-day">
-            <h1>Курси манікюру в Ужгороді — навчання з нуля</h1>
-            <p class="header__subtitle">
-              Тут ти знайдеш всю інформацію про курси манікюру, програму навчання та можеш обрати курс, який підходить саме тобі.
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="1em" height="1em" style="vertical-align:-0.15em" aria-hidden="true" focusable="false">
-                <path fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" d="M32 58C12 44 4 34 4 22 4 13.16 11.16 6 20 6c5.63 0 10.43 2.94 12 7.05C33.57 8.94 38.37 6 44 6c8.84 0 16 7.16 16 16 0 12-8 22-28 36z" />
-              </svg>
-            </p>
-          </div>
+        <div class="header__top">
+
+
+
+          <nav class="menu">
+
+            <a href="index.html" class="menu__link menu__link--active">
+              Головна
+            </a>
+
+            <a href="#courses" class="menu__link">
+              Курси
+            </a>
+
+            <a href="#about" class="menu__link">
+              Про мене
+            </a>
+
+            <a href="#reviews" class="menu__link">
+              Відгуки
+            </a>
+
+            <a href="#contacts" class="menu__link">
+              Контакти
+            </a>
+
+          </nav>
+
+          <a class="header__btn" href="https://www.instagram.com/natush_nails_uzh" target="_blank">
+            Записатися
+          </a>
+
         </div>
 
-        <nav class="header__nav nav" aria-label="Соцмережі">
-          <section class="nav__section-conect">
+        <div class="header__content">
 
-            <ul class="nav__social-items social-items">
+          <h1>
+            Курси манікюру в Ужгороді —
+            <br>
+            навчання з нуля
+          </h1>
 
-              <!-- Instagram -->
-              <li class="social-items__item">
-                <a class="social-items__link" href="https://www.instagram.com/natush_nails_uzh?igsh=MXAxdzhrOHp4ZGpqMQ%3D%3D&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+          <p class="header__subtitle">
+            Тут ти знайдеш всю інформацію про курси манікюру, програму навчання та можеш обрати курс, який підходить саме тобі.
+          </p>
 
-                  <img class="social-items__icon" src="img/Instagram_logo_2022.svg.webp" alt="Instagram">
+          <ul class="social-items">
 
-                </a>
-              </li>
+            <li>
+              <a href="https://www.instagram.com/natush_nails_uzh" target="_blank">
+                <img src="img/Instagram_logo_2022.svg.webp" class="social-items__icon" alt="Instagram">
+              </a>
+            </li>
 
-              <!-- Facebook -->
-              <li class="social-items__item">
-                <a class="social-items__link" href="https://www.facebook.com/profile.php?id=100072619380454" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100072619380454" target="_blank">
+                <img src="img/2023_Facebook_icon.svg.webp" class="social-items__icon" alt="Facebook">
+              </a>
+            </li>
 
-                  <img class="social-items__icon" src="img/2023_Facebook_icon.svg.webp" alt="Facebook">
+            <li>
+              <a href="https://goo.gl/maps/Naj5BhFDMprcDNuj6" target="_blank">
+                <img src="img/location_icon.svg" class="social-items__icon" alt="Локація">
+              </a>
+            </li>
 
-                </a>
-              </li>
+            <li>
+              <a href="tel:+380992274337">
+                <img src="img/phone_icon.svg" class="social-items__icon" alt="Телефон">
+              </a>
+            </li>
 
-              <!-- Карта -->
-              <li class="social-items__item">
-                <a class="social-items__link link--location" href="https://goo.gl/maps/Naj5BhFDMprcDNuj6" target="_blank" rel="noopener noreferrer" aria-label="Локація" title="Локація">
+          </ul>
 
-                  <img class="social-items__icon" src="img/location_icon.svg" alt="Локація">
-
-                </a>
-              </li>
-
-              <!-- Телефон -->
-              <li class="social-items__item">
-                <a class="social-items__link" href="tel:+380992274337" aria-label="Подзвонити" title="Подзвонити">
-
-                  <img class="social-items__icon" src="img/phone_icon.svg" alt="Телефон">
-
-                </a>
-              </li>
-
-            </ul>
-
-          </section>
-        </nav>
+        </div>
 
       </header>
 
       <main class="main">
-        <section class="courses">
+        <section id="courses" class="courses">
 
           <h2>Курси манікюру в Ужгороді</h2>
 

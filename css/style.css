@@ -1,58 +1,10 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap");
 
-/* .wrapper-background {
-  background:
-    radial-gradient(
-      circle at 15% 20%,
-      rgba(255, 220, 230, 0.274),
-      transparent 35%
-    ),
-    radial-gradient(
-      circle at 85% 15%,
-      rgba(220, 245, 240, 0.329),
-      transparent 35%
-    ),
-    radial-gradient(
-      circle at 75% 80%,
-      rgba(230, 235, 255, 0.285),
-      transparent 35%
-    ),
-    radial-gradient(
-      circle at 20% 75%,
-      rgba(255, 245, 220, 0.185),
-      transparent 35%
-    ),
-    #faf8f6;
-} */
-
 .wrapper {
-  width: min(1320px, calc(100% - 50px));
-  padding: 50px 0px;
+  width: 100%;
+  padding: 0px 2px;
   margin: auto;
-
-  /* background:
-    radial-gradient(
-      circle at 15% 20%,
-      rgba(255, 220, 230, 0.7),
-      transparent 35%
-    ),
-    radial-gradient(
-      circle at 85% 15%,
-      rgba(220, 245, 240, 0.7),
-      transparent 35%
-    ),
-    radial-gradient(
-      circle at 75% 80%,
-      rgba(230, 235, 255, 0.6),
-      transparent 35%
-    ),
-    radial-gradient(
-      circle at 20% 75%,
-      rgba(255, 245, 220, 0.45),
-      transparent 35%
-    ),
-    #faf8f6; */
 }
 
 main {
@@ -98,18 +50,136 @@ p {
         HEADER
 ========================= */
 
-.header {
-  /* padding: 90px 0; */
+/* =========================
+        HEADER TOP
+========================= */
 
+.header {
+  position: relative;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .logo img {
+    width: 150px;
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  gap: 22px;
+
+  padding: 35px 0;
+}
+
+.menu__link {
+  text-decoration: none;
+
+  /* color: #111; */
+
+  font-size: 24px;
+
+  font-weight: 500;
+
+  transition: 0.3s;
+}
+
+.menu__link:hover {
+  color: #d6a48d;
+}
+
+.menu__link--active {
+  color: #d6a48d;
+}
+
+@media (min-width: 1024px) {
+  .menu {
+    flex-direction: row;
+
+    justify-content: center;
+
+    gap: 50px;
+
+    padding: 0;
+  }
+
+  .logo {
+    top: 10px;
+    left: 10px;
+  }
+
+  .logo img {
+    width: 460px;
+  }
+
+  .menu__link {
+    font-size: 22px;
+  }
+}
+
+.header__btn {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 34px;
+
+  border-radius: 40px;
+
+  text-decoration: none;
+
+  background: #e8cfc2;
+
+  color: #222;
+
+  font-size: 18px;
+
+  transition: 0.35s;
+}
+
+.header__btn:hover {
+  background: #d8b9a7;
+}
+
+.header__content {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .header__subtitle {
-  max-width: 700px;
-
-  margin: auto;
-
-  font-size: 22px;
+  max-width: 760px;
+  margin: 35px auto;
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 /* =========================
@@ -122,8 +192,6 @@ p {
   justify-content: center;
 
   gap: 30px;
-
-  /* margin-top: 50px; */
 }
 
 .social-items__icon {
@@ -437,7 +505,7 @@ section {
   }
 
   .wrapper {
-    width: calc(100% - 30px);
+    width: 100%;
   }
 
   .hero {
