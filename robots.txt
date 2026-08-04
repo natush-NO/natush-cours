@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://natush-cours.vercel.app/sitemap.xml
